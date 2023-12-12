@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env", {
+      "loose": true,
+      "targets": {
+        "node": "8.11.3"
+      }
+    }],
+    "react"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-object-rest-spread",
+    ["transform-class-properties", { "loose": true }]
+  ]
+}
